@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--用户界面布局-->
+<Layout>
+    <PageContainer Width="1813" Height="981">
+        <Page DockPos="0,0,1813,981" DockParentPos="0,0,0,0" DockHorizontal="1" DockContainer="1" DockChildNo="-1" DockSplitterType="-1"/>
+        <Page DockPos="0,0,824,981" DockParentPos="0,0,1813,981" DockHorizontal="0" DockContainer="1" DockChildNo="0" DockSplitterType="1"/>
+        <Page DockPos="0,0,821,491" DockParentPos="0,0,824,981" DockHorizontal="0" DockContainer="0" DockChildNo="0" DockSplitterType="2">
+            <DockWindow id="AutoTrade_EntrustEach"/>
+        </Page>
+        <Page DockPos="0,491,821,981" DockParentPos="0,0,824,981" DockHorizontal="0" DockContainer="0" DockChildNo="1" DockSplitterType="-1">
+            <DockWindow id="AutoTrade_TradeConfig"/>
+        </Page>
+        <Page DockPos="824,0,1813,981" DockParentPos="0,0,1813,981" DockHorizontal="0" DockContainer="0" DockChildNo="1" DockSplitterType="-1">
+            <DockWindow id="AutoTrade_AlertRecord"/>
+            <DockWindow id="AutoTrade_CustomPool"/>
+            <DockWindow id="AutoTrade_blackList"/>
+        </Page>
+    </PageContainer>
+    <NormalWindowContainer/>
+    <UsedPageCintainerList/>
+</Layout>

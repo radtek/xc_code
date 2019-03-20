@@ -1,0 +1,41 @@
+﻿  main.cpp
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(78): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(79): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(80): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(81): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(82): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(83): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(84): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(85): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(86): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(87): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(95): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(96): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(104): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(105): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(115): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(123): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(124): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(125): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(135): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(136): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(145): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(155): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(165): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(166): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+d:\湘财\xctrade_final\include\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp(195): warning C4838: 从“long”转换到“unsigned int”需要收缩转换
+  jsontest.cpp
+  正在生成代码...
+jsontest.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  test_lib_json.vcxproj -> D:\湘财\XcTrade_Final\include\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/debug/test_lib_json\test_lib_json.exe
+  test_lib_json.vcxproj -> ../../build/vs71/debug/test_lib_json\test_lib_json.pdb (Full PDB)
+  Testing ValueTest/size: OK
+  Testing ValueTest/isObject: OK
+  Testing ValueTest/isArray: OK
+  Testing ValueTest/isBool: OK
+  Testing ValueTest/isInt: OK
+  Testing ValueTest/isUInt: OK
+  Testing ValueTest/isDouble: OK
+  Testing ValueTest/isString: OK
+  Testing ValueTest/isNull: OK
+  All 9 tests passed

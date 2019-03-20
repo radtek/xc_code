@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000725</StockCode>
+			<StockName>京东方Ａ</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002109</StockCode>
+			<StockName>兴化股份</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002649</StockCode>
+			<StockName>博彦科技</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>002906</StockCode>
+			<StockName>华阳集团</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>002928</StockCode>
+			<StockName>华夏航空</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>300156</StockCode>
+			<StockName>神雾环保</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>300549</StockCode>
+			<StockName>优德精密</StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>600551</StockCode>
+			<StockName>时代出版</StockName>
+		</Stock8>
+		<Stock9>
+			<StockCode>600624</StockCode>
+			<StockName>复旦复华</StockName>
+		</Stock9>
+		<Stock10>
+			<StockCode>600739</StockCode>
+			<StockName>辽宁成大</StockName>
+		</Stock10>
+	</Stocks>
+</content>

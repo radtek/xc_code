@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000001</StockCode>
+			<StockName>平安银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>000687</StockCode>
+			<StockName>华讯方舟</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002049</StockCode>
+			<StockName>紫光国芯</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>002052</StockCode>
+			<StockName>同洲电子</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>002251</StockCode>
+			<StockName>步 步 高</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>002582</StockCode>
+			<StockName>好想你</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>002682</StockCode>
+			<StockName>龙洲股份</StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>002806</StockCode>
+			<StockName>华锋股份</StockName>
+		</Stock8>
+		<Stock9>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock9>
+		<Stock10>
+			<StockCode>600000</StockCode>
+			<StockName>浦发银行</StockName>
+		</Stock10>
+		<Stock11>
+			<StockCode>600562</StockCode>
+			<StockName>国睿科技</StockName>
+		</Stock11>
+		<Stock12>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock12>
+	</Stocks>
+</content>

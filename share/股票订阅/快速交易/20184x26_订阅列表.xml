@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000561</StockCode>
+			<StockName>烽火电子</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>300444</StockCode>
+			<StockName>双杰电气</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>300555</StockCode>
+			<StockName>路通视信</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>300597</StockCode>
+			<StockName>吉大通信</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>300663</StockCode>
+			<StockName>科蓝软件</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>603189</StockCode>
+			<StockName>网达软件</StockName>
+		</Stock8>
+	</Stocks>
+</content>

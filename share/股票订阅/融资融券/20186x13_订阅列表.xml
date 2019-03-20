@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000928</StockCode>
+			<StockName>中钢国际</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>600624</StockCode>
+			<StockName>复旦复华</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>603366</StockCode>
+			<StockName>日出东方</StockName>
+		</Stock3>
+	</Stocks>
+</content>

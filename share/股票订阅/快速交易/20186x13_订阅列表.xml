@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000001</StockCode>
+			<StockName>平安银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>000928</StockCode>
+			<StockName>中钢国际</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002290</StockCode>
+			<StockName>中科新材</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>002594</StockCode>
+			<StockName>比亚迪</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>300272</StockCode>
+			<StockName>开能环保</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>600550</StockCode>
+			<StockName>保变电气</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>600980</StockCode>
+			<StockName>XD北矿科</StockName>
+		</Stock7>
+	</Stocks>
+</content>

@@ -1,0 +1,25 @@
+{
+   "CustomInfo" : [
+      {
+         "MarketCode" : "SZSE",
+         "stock_code" : "000002",
+         "stock_name" : "万  科Ａ"
+      },
+      {
+         "MarketCode" : "SZSE",
+         "stock_code" : "002337",
+         "stock_name" : "赛象科技"
+      },
+      {
+         "MarketCode" : "SZSE",
+         "stock_code" : "000001",
+         "stock_name" : "平安银行"
+      },
+      {
+         "MarketCode" : "SZSE",
+         "stock_code" : "000004",
+         "stock_name" : "国农科技"
+      }
+   ]
+}
+

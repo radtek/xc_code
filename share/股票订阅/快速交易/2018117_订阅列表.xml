@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000878</StockCode>
+			<StockName>云南铜业</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002317</StockCode>
+			<StockName>众生药业</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>600496</StockCode>
+			<StockName>精工钢构</StockName>
+		</Stock3>
+	</Stocks>
+</content>

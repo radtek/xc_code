@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000001</StockCode>
+			<StockName>平安银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>300105</StockCode>
+			<StockName>龙源技术</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>600000</StockCode>
+			<StockName>浦发银行</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock5>
+	</Stocks>
+</content>

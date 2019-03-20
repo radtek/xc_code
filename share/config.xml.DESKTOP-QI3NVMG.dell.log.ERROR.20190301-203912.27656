@@ -1,0 +1,4 @@
+Log file created at: 2019/03/01 20:39:12
+Running on machine: DESKTOP-QI3NVMG
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0301 20:39:12.137398 14112 MFCUpdateTest.cpp:471] 用户名或者密码错误

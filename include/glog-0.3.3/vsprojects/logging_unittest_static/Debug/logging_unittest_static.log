@@ -1,0 +1,8 @@
+﻿  logging_unittest.cc
+e:\工作空间\客户端\姚树龙\jg_新框架\20181205\xctrade_final\include\glog-0.3.3\src\windows\port.h(117): warning C4005: “va_copy”: 宏重定义
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(20): note: 参见“va_copy”的前一个定义
+e:\工作空间\客户端\姚树龙\jg_新框架\20181205\xctrade_final\include\glog-0.3.3\src\googletest.h(587): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\工作空间\客户端\姚树龙\jg_新框架\20181205\xctrade_final\include\glog-0.3.3\src\googletest.h(594): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+logging_unittest.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  logging_unittest_static.vcxproj -> E:\工作空间\客户端\姚树龙\JG_新框架\20181205\XcTrade_Final\include\glog-0.3.3\Debug\logging_unittest_static.exe
+  logging_unittest_static.vcxproj -> E:\工作空间\客户端\姚树龙\JG_新框架\20181205\XcTrade_Final\include\glog-0.3.3\Debug\logging_unittest_static.pdb (Full PDB)

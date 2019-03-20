@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>002606</StockCode>
+			<StockName>大连电瓷</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>600207</StockCode>
+			<StockName>安彩高科</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock4>
+	</Stocks>
+</content>

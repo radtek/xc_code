@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--用户界面布局-->
+<Layout>
+    <PageContainer Width="1813" Height="981">
+        <Page DockPos="0,0,1813,981" DockParentPos="0,0,0,0" DockHorizontal="1" DockContainer="1" DockChildNo="-1" DockSplitterType="-1"/>
+        <Page DockPos="0,0,880,981" DockParentPos="0,0,1813,981" DockHorizontal="0" DockContainer="1" DockChildNo="0" DockSplitterType="1"/>
+        <Page DockPos="0,0,877,431" DockParentPos="0,0,880,981" DockHorizontal="0" DockContainer="0" DockChildNo="0" DockSplitterType="2">
+            <DockWindow id="fastTrade"/>
+        </Page>
+        <Page DockPos="0,431,877,981" DockParentPos="0,0,880,981" DockHorizontal="0" DockContainer="0" DockChildNo="1" DockSplitterType="-1">
+            <DockWindow id="order"/>
+            <DockWindow id="orderDealDetail"/>
+            <DockWindow id="dealSummary"/>
+            <DockWindow id="customPool"/>
+        </Page>
+        <Page DockPos="880,0,1813,981" DockParentPos="0,0,1813,981" DockHorizontal="0" DockContainer="1" DockChildNo="1" DockSplitterType="-1"/>
+        <Page DockPos="880,0,1813,419" DockParentPos="880,0,1813,981" DockHorizontal="0" DockContainer="0" DockChildNo="0" DockSplitterType="2">
+            <DockWindow id="position"/>
+            <DockWindow id="fund"/>
+            <DockWindow id="orderQueue"/>
+            <DockWindow id="orderEach"/>
+        </Page>
+        <Page DockPos="880,419,1813,981" DockParentPos="880,0,1813,981" DockHorizontal="0" DockContainer="0" DockChildNo="1" DockSplitterType="-1">
+            <DockWindow id="alert"/>
+        </Page>
+    </PageContainer>
+    <NormalWindowContainer/>
+    <UsedPageCintainerList/>
+</Layout>

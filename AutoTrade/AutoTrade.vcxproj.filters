@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{b8b70759-64fc-4b27-b046-a2844991c44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="login">
+      <UniqueIdentifier>{539ba136-3bac-45b7-ab25-599ab1ce7f1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoTrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainView_AutoTrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View_TradeConfig.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View_EntrustEach.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View_AlertRecord.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JG\Login_Base.cpp">
+      <Filter>login</Filter>
+    </ClCompile>
+    <ClCompile Include="Login_Auto.cpp">
+      <Filter>login</Filter>
+    </ClCompile>
+    <ClCompile Include="View_CustomPool.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketSpi_index_SZSE.cpp">
+      <Filter>login</Filter>
+    </ClCompile>
+    <ClCompile Include="View_blackList.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewManager_auto.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoTrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainView_AutoTrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View_TradeConfig.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View_EntrustEach.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View_AlertRecord.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JG\Login_Base.h">
+      <Filter>login</Filter>
+    </ClInclude>
+    <ClInclude Include="Login_Auto.h">
+      <Filter>login</Filter>
+    </ClInclude>
+    <ClInclude Include="View_CustomPool.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketSpi_index_SZSE.h">
+      <Filter>login</Filter>
+    </ClInclude>
+    <ClInclude Include="View_blackList.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewManager_auto.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AutoTrade.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\AutoTrade.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\layout\default.layout" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoTrade.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\menu\Trade_hover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menu\Trade.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

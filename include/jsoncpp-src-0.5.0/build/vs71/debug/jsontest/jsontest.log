@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  jsontest.vcxproj -> D:\湘财\XcTrade_Final\include\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/debug/jsontest\jsontest.exe
+  jsontest.vcxproj -> ../../build/vs71/debug/jsontest\jsontest.pdb (Full PDB)

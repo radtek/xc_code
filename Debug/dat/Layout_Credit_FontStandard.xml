@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--用户界面布局-->
+<Layout>
+    <PageContainer Width="1795" Height="992">
+        <Page DockPos="0,0,1795,992" DockParentPos="0,0,0,0" DockHorizontal="1" DockContainer="1" DockChildNo="-1" DockSplitterType="-1"/>
+        <Page DockPos="0,0,863,992" DockParentPos="0,0,1795,992" DockHorizontal="0" DockContainer="1" DockChildNo="0" DockSplitterType="1"/>
+        <Page DockPos="0,0,860,435" DockParentPos="0,0,863,992" DockHorizontal="0" DockContainer="0" DockChildNo="0" DockSplitterType="2">
+            <DockWindow id="001"/>
+        </Page>
+        <Page DockPos="0,435,860,992" DockParentPos="0,0,863,992" DockHorizontal="0" DockContainer="0" DockChildNo="1" DockSplitterType="-1">
+            <DockWindow id="002"/>
+            <DockWindow id="008"/>
+            <DockWindow id="009"/>
+            <DockWindow id="010"/>
+        </Page>
+        <Page DockPos="863,0,1795,992" DockParentPos="0,0,1795,992" DockHorizontal="0" DockContainer="1" DockChildNo="1" DockSplitterType="-1"/>
+        <Page DockPos="863,0,1795,435" DockParentPos="863,0,1795,992" DockHorizontal="0" DockContainer="0" DockChildNo="0" DockSplitterType="2">
+            <DockWindow id="003"/>
+            <DockWindow id="004"/>
+            <DockWindow id="011"/>
+            <DockWindow id="012"/>
+            <DockWindow id="006"/>
+            <DockWindow id="007"/>
+            <DockWindow id="013"/>
+        </Page>
+        <Page DockPos="863,435,1795,992" DockParentPos="863,0,1795,992" DockHorizontal="0" DockContainer="0" DockChildNo="1" DockSplitterType="-1">
+            <DockWindow id="005"/>
+        </Page>
+    </PageContainer>
+    <NormalWindowContainer/>
+    <UsedPageCintainerList/>
+</Layout>

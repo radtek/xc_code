@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000001</StockCode>
+			<StockName>平安银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002873</StockCode>
+			<StockName>新天药业</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>002930</StockCode>
+			<StockName>宏川智慧</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>300076</StockCode>
+			<StockName>GQY视讯</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>300356</StockCode>
+			<StockName>光一科技</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>300452</StockCode>
+			<StockName>山河药辅</StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>300595</StockCode>
+			<StockName>欧普康视</StockName>
+		</Stock8>
+		<Stock9>
+			<StockCode>300660</StockCode>
+			<StockName>江苏雷利</StockName>
+		</Stock9>
+		<Stock10>
+			<StockCode>300670</StockCode>
+			<StockName>大烨智能</StockName>
+		</Stock10>
+		<Stock11>
+			<StockCode>300688</StockCode>
+			<StockName>创业黑马</StockName>
+		</Stock11>
+		<Stock12>
+			<StockCode>300726</StockCode>
+			<StockName>宏达电子</StockName>
+		</Stock12>
+		<Stock13>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock13>
+	</Stocks>
+</content>

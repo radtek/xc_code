@@ -1,0 +1,85 @@
+{
+   "recordInfo" : [
+      {
+         "cause" : "以9.3(偏离现价9.25,0.54)买入978手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:12:59:370",
+         "stock_code" : "000547",
+         "stock_name" : "航天发展"
+      },
+      {
+         "cause" : "以9.58(偏离现价9.52,0.63)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:13:09:920",
+         "stock_code" : "002127",
+         "stock_name" : "南极电商"
+      },
+      {
+         "cause" : "以3.69(偏离现价3.68,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:13:10:640",
+         "stock_code" : "002418",
+         "stock_name" : "康盛股份"
+      },
+      {
+         "cause" : "以9.34(偏离现价9.3,0.43)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:13:14:930",
+         "stock_code" : "000547",
+         "stock_name" : "航天发展"
+      },
+      {
+         "cause" : "以4.04(偏离现价4.03,0.24)买入700手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:13:20:540",
+         "stock_code" : "300352",
+         "stock_name" : "北信源"
+      },
+      {
+         "cause" : "以4.48(偏离现价4.4,1.81)买入9000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:57:80",
+         "stock_code" : "002337",
+         "stock_name" : "赛象科技"
+      },
+      {
+         "cause" : "以5.12(偏离现价5.05,1.38)买入2089手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:26:35:420",
+         "stock_code" : "000637",
+         "stock_name" : "茂化实华"
+      },
+      {
+         "cause" : "以4.41(偏离现价4.32,2.08)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:28:45:650",
+         "stock_code" : "002337",
+         "stock_name" : "赛象科技"
+      }
+   ]
+}
+

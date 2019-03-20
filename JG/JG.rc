@@ -1,0 +1,550 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\JG.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\XcTrade.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 JG(&A)...",                ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "湘财证券"
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,10,20,20
+    LTEXT           "湘财证券，版本：",IDC_STATIC_Version,50,10,105,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,113,49,50,14,WS_GROUP
+    LTEXT           "Copyright (C) 2017-2019",IDC_STATIC,50,23,99,8
+    LTEXT           "湘财证券股份有限公司",IDC_STATIC,50,37,97,8
+END
+
+IDD_Login DIALOGEX 0, 0, 296, 177
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "微软雅黑", 700, 0, 0x86
+BEGIN
+    COMBOBOX        IDC_User,102,62,132,72,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_Pass,102,78,132,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Vcode,102,114,59,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_Font,102,95,60,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "字体(重启生效)",IDC_STATIC_Font,50,97,49,14
+    LTEXT           "用户名：",IDC_STATIC_User,50,64,49,12
+    LTEXT           "密码：",IDC_STATIC_Pass,50,80,49,12
+    LTEXT           "上海行情:",IDC_STATIC_Market,251,68,8,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_Market_SSE,244,81,16,44,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "交易地址:",IDC_STATIC_Trade,239,79,22,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_Trade,113,6,17,52,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "登录",IDC_Login,112,136,58,10,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",ID_Cancel,174,136,60,10,NOT WS_VISIBLE
+    LTEXT           "登录方式：",IDC_STATIC_LoinType,50,48,49,12
+    COMBOBOX        IDC_AssetProp,169,46,65,42,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LoginType,102,46,62,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_PROGRESS_Login,"msctls_progress32",PBS_SMOOTH | NOT WS_VISIBLE | WS_BORDER,50,159,184,7
+    LTEXT           "字号:",IDC_STATIC_FontStyle,168,97,17,10
+    EDITTEXT        IDC_FontSize,234,71,33,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    PUSHBUTTON      "?",IDC_Help,133,6,17,14,NOT WS_VISIBLE
+    LTEXT           "深圳行情:",IDC_STATIC_Market4,259,67,8,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_Market_SZSE,89,6,16,44,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_Font_Style,186,95,47,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "预警:",IDC_STATIC_Market5,162,6,8,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_AlertServer,182,6,16,44,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "设置",IDC_Btn_Setting,50,136,58,10,NOT WS_VISIBLE
+    LTEXT           "验证码：",IDC_STATIC_VCode,50,116,49,12
+    PUSHBUTTON      "刷新验证码",IDC_BUTTON_CheckVCode,236,114,41,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_AlertServer_SSE,203,6,16,44,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_AlertServer_SZSE,230,6,16,44,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOGQQQ DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,198,155,50,14
+    PUSHBUTTON      "取消",IDCANCEL,252,155,50,14
+END
+
+IDD_DIALOG_SETTING DIALOGEX 0, 0, 311, 165
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 9, "微软雅黑", 700, 0, 0x86
+BEGIN
+    LTEXT           "交易:",IDC_STATIC_Trade_Address,16,19,37,8
+    LTEXT           "上海行情:",IDC_STATIC_Market_SSE,16,39,38,8
+    LTEXT           "深圳行情:",IDC_STATIC_Market_SZSE,16,59,39,8
+    LTEXT           "预警:",IDC_STATIC_Alert,16,143,15,8,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_Trade_Address,57,17,134,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Market_SSE,57,37,134,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Market_SZSE,57,57,134,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Alert,34,141,18,30,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "保存",IDC_BUTTON_Confirm,186,141,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",IDC_BUTTON_Cancel,244,141,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "添加",IDC_BUTTON_TradeAddr_Add,200,17,29,12
+    PUSHBUTTON      "修改",IDC_BUTTON_TradeAddr_Modify,232,17,29,12
+    PUSHBUTTON      "删除",IDC_BUTTON_TradeAddr_Delete,265,17,29,12
+    PUSHBUTTON      "添加",IDC_BUTTON_MarketSSE_Add,200,37,29,12
+    PUSHBUTTON      "修改",IDC_BUTTON_MarketSSE_Modify,232,37,29,12
+    PUSHBUTTON      "删除",IDC_BUTTON_MarketSSE_Delete,265,37,29,12
+    PUSHBUTTON      "添加",IDC_BUTTON_MarketSZSE_Add,200,57,29,12
+    PUSHBUTTON      "修改",IDC_BUTTON_MarketSZSE_Modify,232,57,29,12
+    PUSHBUTTON      "删除",IDC_BUTTON_MarketSZSE_Delete,265,57,29,12
+    PUSHBUTTON      "添加",IDC_BUTTON_Alert_Add,57,140,29,12,NOT WS_VISIBLE
+    PUSHBUTTON      "修改",IDC_BUTTON_Alert_Modify,88,140,29,12,NOT WS_VISIBLE
+    PUSHBUTTON      "删除",IDC_BUTTON_Alert_Delete,121,140,29,12,NOT WS_VISIBLE
+    LTEXT           "升级服务器：",IDC_STATIC_Update,16,120,41,8
+    COMBOBOX        IDC_COMBO_Update,57,118,134,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加",IDC_BUTTON_Update_Add,200,118,29,12
+    PUSHBUTTON      "修改",IDC_BUTTON_Update_Modify,232,118,29,12
+    PUSHBUTTON      "删除",IDC_BUTTON_Update_Delete,265,118,29,12
+    LTEXT           "上海预警:",IDC_STATIC_Alert_SSE,16,79,38,8
+    COMBOBOX        IDC_COMBO_Alert_SSE,57,77,134,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加",IDC_BUTTON_Alert_Add_SSE,200,77,29,12
+    PUSHBUTTON      "修改",IDC_BUTTON_Alert_Modify_SSE,232,77,29,12
+    PUSHBUTTON      "删除",IDC_BUTTON_Alert_Delete_SSE,265,77,29,12
+    LTEXT           "深圳预警:",IDC_STATIC_Alert_SZSE,16,100,38,8
+    COMBOBOX        IDC_COMBO_Alert_SZSE,57,98,134,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加",IDC_BUTTON_Alert_Add_SZSE,200,98,29,12
+    PUSHBUTTON      "修改",IDC_BUTTON_Alert_Modify_SZSE,232,98,29,12
+    PUSHBUTTON      "删除",IDC_BUTTON_Alert_Delete_SZSE,265,98,29,12
+END
+
+IDD_DIALOG_Edit DIALOGEX 0, 0, 196, 96
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    RTEXT           "上海行情名称：",IDC_STATIC_Name,3,16,60,8
+    RTEXT           "上海行情地址：",IDC_STATIC_Addr,3,34,60,8
+    RTEXT           "端口：",IDC_STATIC_Port,13,55,50,8
+    EDITTEXT        IDC_EDIT_Name,69,13,107,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Addr,69,32,107,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Port,69,52,107,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_Edit_Confirm,68,72,50,14
+    PUSHBUTTON      "取消",IDC_BUTTON_Edit_Cancel,125,72,50,14
+END
+
+IDD_DIALOG_Keypad DIALOGEX 0, 0, 100, 90
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "微软雅黑", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Button1",IDC_Pad_Button1,0,0,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button2",IDC_Pad_Button2,32,0,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button3",IDC_Pad_Button3,64,0,36,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button4",IDC_Pad_Button4,0,18,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button5",IDC_Pad_Button5,32,36,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button6",IDC_Pad_Button6,64,18,36,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button7",IDC_Pad_Button7,0,36,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button8",IDC_Pad_Button8,32,18,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button9",IDC_Pad_Button9,64,36,36,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Button10",IDC_Pad_Button10,0,54,32,18,NOT WS_TABSTOP
+    PUSHBUTTON      "删除",IDC_Pad_Button_Delete,32,54,68,18,NOT WS_TABSTOP
+    PUSHBUTTON      "确定",IDC_Pad_Button_Confirm,32,72,68,18,NOT WS_TABSTOP
+    PUSHBUTTON      "清空",IDC_Pad_Button_Clear,0,72,32,18,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOUSE,14,70,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "XcTrade"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "XcTrade.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "XcTrade.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_Login, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_DIALOGQQQ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_DIALOG_Edit, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DIALOG_Keypad, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_Login AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOGQQQ AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_SETTING AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_Edit AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_Keypad AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_CLOSE        BITMAP                  "res\\close.bmp"
+
+IDB_BITMAP_CLOSE_HOVER  BITMAP                  "res\\close_hover.bmp"
+
+IDB_BITMAP_OPEN         BITMAP                  "res\\open.bmp"
+
+IDB_BITMAP_OPEN_HOVER   BITMAP                  "res\\open_hover.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_DOCKCENTER      PNG                     "res\\DockCenter.png"
+
+IDB_PNG_DOCKDOWN        PNG                     "res\\DockDown.png"
+
+IDB_PNG_DOCKLEFT        PNG                     "res\\DockLeft.png"
+
+IDB_PNG_DOCKRIGHT       PNG                     "res\\DockRight.png"
+
+IDB_PNG_DOCKUP          PNG                     "res\\DockUp.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 JG(&A)..."
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "湘财证券"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "JG"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\JG.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

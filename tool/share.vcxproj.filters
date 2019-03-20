@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tool.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlFun.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertSpi.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertSetting.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeDlg.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketSpi.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="T2Spi.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\MyCOccManager.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\MyGroupBox.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\OnScreenDisplayBDlg.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\OnScreenDisplayDlg.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\BaseView.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\ColorSet.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\FontSet.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCtrl\UsedDockPane.cpp">
+      <Filter>MyCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\BaseView_CustomPool.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\BaseView_DealSummary.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\BaseView_OrderDealDetail.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\BaseView_OrderEach.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\BaseView_OrderQueue.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\BaseView_Position.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\GridRes.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+    <ClCompile Include="baseView\ViewManager.cpp">
+      <Filter>baseView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tool.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlFun.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertSpi.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertSetting.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeDlg.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketSpi.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="T2Spi.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\MyCOccManager.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\MyGroupBox.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\OnScreenDisplayBDlg.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\OnScreenDisplayDlg.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\BaseView.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\ColorSet.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\FontSet.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\singleton.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCtrl\UsedDockPane.h">
+      <Filter>MyCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\BaseView_CustomPool.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\BaseView_DealSummary.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\BaseView_OrderDealDetail.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\BaseView_OrderEach.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\BaseView_OrderQueue.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\BaseView_Position.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\GridRes.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+    <ClInclude Include="baseView\ViewManager.h">
+      <Filter>baseView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tool">
+      <UniqueIdentifier>{80fa0b85-af21-4e28-a755-3526a1f14bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{8026049e-61f9-46a4-9986-271f1edb32ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{bb88f04b-baf3-4066-9b3f-e6588d0a5d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCtrl">
+      <UniqueIdentifier>{7a400559-9551-455a-9ac6-f59b0716cd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseView">
+      <UniqueIdentifier>{ec3e2d70-d473-472b-958a-8833c78c713b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

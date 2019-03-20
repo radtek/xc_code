@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000001</StockCode>
+			<StockName>平安银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>000002</StockCode>
+			<StockName>万  科Ａ</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>000004</StockCode>
+			<StockName>国农科技</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>000710</StockCode>
+			<StockName>贝瑞基因</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>002077</StockCode>
+			<StockName>大港股份</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>002134</StockCode>
+			<StockName>天津普林</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>002368</StockCode>
+			<StockName>太极股份</StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock8>
+		<Stock9>
+			<StockCode>002908</StockCode>
+			<StockName>德生科技</StockName>
+		</Stock9>
+		<Stock10>
+			<StockCode>300208</StockCode>
+			<StockName>恒顺众昇</StockName>
+		</Stock10>
+		<Stock11>
+			<StockCode>300634</StockCode>
+			<StockName>彩讯股份</StockName>
+		</Stock11>
+		<Stock12>
+			<StockCode>300715</StockCode>
+			<StockName>凯伦股份</StockName>
+		</Stock12>
+		<Stock13>
+			<StockCode>600000</StockCode>
+			<StockName>浦发银行</StockName>
+		</Stock13>
+		<Stock14>
+			<StockCode>600536</StockCode>
+			<StockName>中国软件</StockName>
+		</Stock14>
+		<Stock15>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock15>
+	</Stocks>
+</content>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000001</StockCode>
+			<StockName>平安银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002354</StockCode>
+			<StockName>天神娱乐</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>300437</StockCode>
+			<StockName>清水源</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>300507</StockCode>
+			<StockName>苏奥传感</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock6>
+	</Stocks>
+</content>

@@ -1,0 +1,395 @@
+{
+   "recordInfo" : [
+      {
+         "cause" : "以4.55(偏离现价4.53,0.44)买入880手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:31:17:240",
+         "stock_code" : "000570",
+         "stock_name" : "苏常柴Ａ"
+      },
+      {
+         "cause" : "以2.57(偏离现价2.56,0.39)买入1558手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:31:18:700",
+         "stock_code" : "002509",
+         "stock_name" : "天广中茂"
+      },
+      {
+         "cause" : "以6.16(偏离现价6.15,0.16)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:31:20:540",
+         "stock_code" : "002797",
+         "stock_name" : "第一创业"
+      },
+      {
+         "cause" : "以5.53(偏离现价5.52,0.18)买入874手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:31:21:860",
+         "stock_code" : "000783",
+         "stock_name" : "长江证券"
+      },
+      {
+         "cause" : "以5.45(偏离现价5.44,0.18)买入1137手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:31:23:290",
+         "stock_code" : "000983",
+         "stock_name" : "西山煤电"
+      },
+      {
+         "cause" : "以3.13(偏离现价3.12,0.32)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:04:700",
+         "stock_code" : "000709",
+         "stock_name" : "河钢股份"
+      },
+      {
+         "cause" : "以5.1(偏离现价5.08,0.39)买入516手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:04:740",
+         "stock_code" : "002170",
+         "stock_name" : "芭田股份"
+      },
+      {
+         "cause" : "以4.37(偏离现价4.35,0.45)买入864手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:06:120",
+         "stock_code" : "002542",
+         "stock_name" : "中化岩土"
+      },
+      {
+         "cause" : "以12.15(偏离现价12.11,0.33)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:07:450",
+         "stock_code" : "002236",
+         "stock_name" : "大华股份"
+      },
+      {
+         "cause" : "以13.38(偏离现价13.21,1.28)买入1509手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:07:590",
+         "stock_code" : "300096",
+         "stock_name" : "易联众"
+      },
+      {
+         "cause" : "以3.74(偏离现价3.72,0.53)买入724手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:08:670",
+         "stock_code" : "300079",
+         "stock_name" : "数码科技"
+      },
+      {
+         "cause" : "以5.36(偏离现价5.32,0.75)买入605手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:09:10",
+         "stock_code" : "002118",
+         "stock_name" : "紫鑫药业"
+      },
+      {
+         "cause" : "以6.47(偏离现价6.46,0.15)买入600手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:10:200",
+         "stock_code" : "002547",
+         "stock_name" : "春兴精工"
+      },
+      {
+         "cause" : "以15.9(偏离现价15.85,0.31)买入616手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:10:660",
+         "stock_code" : "300373",
+         "stock_name" : "扬杰科技"
+      },
+      {
+         "cause" : "以4.4(偏离现价4.36,0.91)买入621手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:11:300",
+         "stock_code" : "000637",
+         "stock_name" : "茂化实华"
+      },
+      {
+         "cause" : "以5.81(偏离现价5.8,0.17)买入1716手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:11:840",
+         "stock_code" : "002217",
+         "stock_name" : "合力泰"
+      },
+      {
+         "cause" : "以1.59(偏离现价1.58,0.63)买入771手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:12:100",
+         "stock_code" : "000727",
+         "stock_name" : "华东科技"
+      },
+      {
+         "cause" : "以6.74(偏离现价6.73,0.14)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:12:750",
+         "stock_code" : "002716",
+         "stock_name" : "金贵银业"
+      },
+      {
+         "cause" : "以7.97(偏离现价7.96,0.12)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:12:960",
+         "stock_code" : "002446",
+         "stock_name" : "盛路通信"
+      },
+      {
+         "cause" : "以5.45(偏离现价5.44,0.18)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:16:620",
+         "stock_code" : "000851",
+         "stock_name" : "高鸿股份"
+      },
+      {
+         "cause" : "以15.85(偏离现价15.84,0.06)买入1339手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:18:220",
+         "stock_code" : "300373",
+         "stock_name" : "扬杰科技"
+      },
+      {
+         "cause" : "以4.52(偏离现价4.5,0.44)买入5887手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:19:400",
+         "stock_code" : "000570",
+         "stock_name" : "苏常柴Ａ"
+      },
+      {
+         "cause" : "以4.07(偏离现价4,1.75)买入3500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:19:800",
+         "stock_code" : "300332",
+         "stock_name" : "天壕环境"
+      },
+      {
+         "cause" : "以8.33(偏离现价8.29,0.48)买入1200手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:32:20:670",
+         "stock_code" : "002066",
+         "stock_name" : "瑞泰科技"
+      },
+      {
+         "cause" : "以21.23(偏离现价21.13,0.47)买入7000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:11:80",
+         "stock_code" : "002733",
+         "stock_name" : "雄韬股份"
+      },
+      {
+         "cause" : "以7.19(偏离现价7.18,0.13)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:13:750",
+         "stock_code" : "002596",
+         "stock_name" : "海南瑞泽"
+      },
+      {
+         "cause" : "以11(偏离现价10.99,0.09)买入900手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:15:70",
+         "stock_code" : "000001",
+         "stock_name" : "平安银行"
+      },
+      {
+         "cause" : "以8.03(偏离现价7.97,0.75)买入3000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:18:30",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以8.07(偏离现价8.05,0.24)买入555手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:20:810",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以11(偏离现价10.99,0.09)买入3360手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:22:410",
+         "stock_code" : "000001",
+         "stock_name" : "平安银行"
+      },
+      {
+         "cause" : "以8.1(偏离现价8.05,0.62)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:25:950",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以8.08(偏离现价8.05,0.37)买入700手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:32:30",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以8.2(偏离现价8.06,1.73)买入600手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:33:270",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以8.12(偏离现价8.07,0.61)买入664手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:36:90",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以8.1(偏离现价8.08,0.24)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:37:42:350",
+         "stock_code" : "002639",
+         "stock_name" : "雪人股份"
+      },
+      {
+         "cause" : "以21.12(偏离现价20.9,1.05)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:54:55:470",
+         "stock_code" : "002733",
+         "stock_name" : "雄韬股份"
+      },
+      {
+         "cause" : "以21.23(偏离现价20.95,1.33)买入3000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:56:22:780",
+         "stock_code" : "002733",
+         "stock_name" : "雄韬股份"
+      },
+      {
+         "cause" : "以5.98(偏离现价5.88,1.7)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:58:54:370",
+         "stock_code" : "000811",
+         "stock_name" : "冰轮环境"
+      },
+      {
+         "cause" : "以6.3(偏离现价6.17,2.1)买入1072手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:59:13:800",
+         "stock_code" : "000678",
+         "stock_name" : "襄阳轴承"
+      }
+   ]
+}
+

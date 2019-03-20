@@ -1,0 +1,235 @@
+{
+   "recordInfo" : [
+      {
+         "cause" : "以18.3(偏离现价18.25,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:22:600",
+         "stock_code" : "002806",
+         "stock_name" : "华锋股份"
+      }
+   ]
+}
+{
+   "recordInfo" : [
+      {
+         "cause" : "以18.3(偏离现价18.25,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:22:600",
+         "stock_code" : "002806",
+         "stock_name" : "华锋股份"
+      },
+      {
+         "cause" : "以10.18(偏离现价10.17,0.09)买入522手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:53:680",
+         "stock_code" : "002017",
+         "stock_name" : "东信和平"
+      }
+   ]
+}
+{
+   "recordInfo" : [
+      {
+         "cause" : "以18.3(偏离现价18.25,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:22:600",
+         "stock_code" : "002806",
+         "stock_name" : "华锋股份"
+      },
+      {
+         "cause" : "以10.18(偏离现价10.17,0.09)买入522手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:53:680",
+         "stock_code" : "002017",
+         "stock_name" : "东信和平"
+      },
+      {
+         "cause" : "以11.58(偏离现价11.54,0.34)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:530",
+         "stock_code" : "002419",
+         "stock_name" : "天虹股份"
+      }
+   ]
+}
+{
+   "recordInfo" : [
+      {
+         "cause" : "以18.3(偏离现价18.25,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:22:600",
+         "stock_code" : "002806",
+         "stock_name" : "华锋股份"
+      },
+      {
+         "cause" : "以10.18(偏离现价10.17,0.09)买入522手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:53:680",
+         "stock_code" : "002017",
+         "stock_name" : "东信和平"
+      },
+      {
+         "cause" : "以11.58(偏离现价11.54,0.34)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:530",
+         "stock_code" : "002419",
+         "stock_name" : "天虹股份"
+      },
+      {
+         "cause" : "以3.58(偏离现价3.57,0.28)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:760",
+         "stock_code" : "300002",
+         "stock_name" : "神州泰岳"
+      }
+   ]
+}
+{
+   "recordInfo" : [
+      {
+         "cause" : "以18.3(偏离现价18.25,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:22:600",
+         "stock_code" : "002806",
+         "stock_name" : "华锋股份"
+      },
+      {
+         "cause" : "以10.18(偏离现价10.17,0.09)买入522手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:53:680",
+         "stock_code" : "002017",
+         "stock_name" : "东信和平"
+      },
+      {
+         "cause" : "以11.58(偏离现价11.54,0.34)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:530",
+         "stock_code" : "002419",
+         "stock_name" : "天虹股份"
+      },
+      {
+         "cause" : "以3.58(偏离现价3.57,0.28)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:760",
+         "stock_code" : "300002",
+         "stock_name" : "神州泰岳"
+      },
+      {
+         "cause" : "以2.75(偏离现价2.74,0.36)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:57:420",
+         "stock_code" : "000100",
+         "stock_name" : "TCL 集团"
+      }
+   ]
+}
+{
+   "recordInfo" : [
+      {
+         "cause" : "以18.3(偏离现价18.25,0.27)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:16:22:600",
+         "stock_code" : "002806",
+         "stock_name" : "华锋股份"
+      },
+      {
+         "cause" : "以10.18(偏离现价10.17,0.09)买入522手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:53:680",
+         "stock_code" : "002017",
+         "stock_name" : "东信和平"
+      },
+      {
+         "cause" : "以11.58(偏离现价11.54,0.34)买入500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:530",
+         "stock_code" : "002419",
+         "stock_name" : "天虹股份"
+      },
+      {
+         "cause" : "以3.58(偏离现价3.57,0.28)买入1000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:56:760",
+         "stock_code" : "300002",
+         "stock_name" : "神州泰岳"
+      },
+      {
+         "cause" : "以2.75(偏离现价2.74,0.36)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:17:57:420",
+         "stock_code" : "000100",
+         "stock_name" : "TCL 集团"
+      },
+      {
+         "cause" : "以2.8(偏离现价2.79,0.35)买入963手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "11:18:01:240",
+         "stock_code" : "002600",
+         "stock_name" : "领益智造"
+      }
+   ]
+}
+

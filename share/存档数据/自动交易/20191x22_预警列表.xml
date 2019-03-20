@@ -1,0 +1,125 @@
+{
+   "recordInfo" : [
+      {
+         "cause" : "以3.99(偏离现价3.98,0.25)买入687手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:52:750",
+         "stock_code" : "002510",
+         "stock_name" : "天汽模"
+      },
+      {
+         "cause" : "以3.15(偏离现价3.1,1.61)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:53:300",
+         "stock_code" : "000506",
+         "stock_name" : "中润资源"
+      },
+      {
+         "cause" : "以4.02(偏离现价4.01,0.24)买入633手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:53:730",
+         "stock_code" : "300091",
+         "stock_name" : "金通灵"
+      },
+      {
+         "cause" : "以3.85(偏离现价3.84,0.26)买入3452手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:53:880",
+         "stock_code" : "300158",
+         "stock_name" : "振东制药"
+      },
+      {
+         "cause" : "以26.1(偏离现价25.99,0.42)买入513手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:54:500",
+         "stock_code" : "000002",
+         "stock_name" : "万  科Ａ"
+      },
+      {
+         "cause" : "以6.76(偏离现价6.74,0.29)买入759手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:54:590",
+         "stock_code" : "002547",
+         "stock_name" : "春兴精工"
+      },
+      {
+         "cause" : "以2.69(偏离现价2.68,0.37)买入2500手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:54:930",
+         "stock_code" : "000725",
+         "stock_name" : "京东方Ａ"
+      },
+      {
+         "cause" : "以3.15(偏离现价3.09,1.94)买入2000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:55:670",
+         "stock_code" : "000506",
+         "stock_name" : "中润资源"
+      },
+      {
+         "cause" : "以2.45(偏离现价2.44,0.4)买入3641手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:56:170",
+         "stock_code" : "000517",
+         "stock_name" : "荣安地产"
+      },
+      {
+         "cause" : "以7.03(偏离现价7.02,0.14)买入600手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:56:350",
+         "stock_code" : "002596",
+         "stock_name" : "海南瑞泽"
+      },
+      {
+         "cause" : "以17.6(偏离现价17.56,0.22)买入800手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:57:20",
+         "stock_code" : "300001",
+         "stock_name" : "特锐德"
+      },
+      {
+         "cause" : "以13.76(偏离现价13.75,0.07)买入543手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "09:39:57:310",
+         "stock_code" : "002895",
+         "stock_name" : "川恒股份"
+      }
+   ]
+}
+

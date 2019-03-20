@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000971</StockCode>
+			<StockName>高升控股</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>000973</StockCode>
+			<StockName>佛塑科技</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002193</StockCode>
+			<StockName>如意集团</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>002202</StockCode>
+			<StockName>金风科技</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>002642</StockCode>
+			<StockName>荣之联</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>002648</StockCode>
+			<StockName>卫星石化</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>300020</StockCode>
+			<StockName>银江股份</StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>300134</StockCode>
+			<StockName>大富科技</StockName>
+		</Stock8>
+		<Stock9>
+			<StockCode>600265</StockCode>
+			<StockName>ST景谷  </StockName>
+		</Stock9>
+		<Stock10>
+			<StockCode>601366</StockCode>
+			<StockName>利群股份</StockName>
+		</Stock10>
+		<Stock11>
+			<StockCode>601858</StockCode>
+			<StockName>中国科传</StockName>
+		</Stock11>
+	</Stocks>
+</content>

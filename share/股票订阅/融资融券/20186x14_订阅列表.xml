@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>600624</StockCode>
+			<StockName>复旦复华</StockName>
+		</Stock1>
+	</Stocks>
+</content>

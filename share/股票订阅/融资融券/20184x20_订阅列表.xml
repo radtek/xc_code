@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000005</StockCode>
+			<StockName>世纪星源</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>603777</StockCode>
+			<StockName>来伊份  </StockName>
+		</Stock2>
+	</Stocks>
+</content>

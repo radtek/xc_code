@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>002922</StockCode>
+			<StockName>伊戈尔</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>600000</StockCode>
+			<StockName>浦发银行</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>603777</StockCode>
+			<StockName>来伊份  </StockName>
+		</Stock3>
+	</Stocks>
+</content>

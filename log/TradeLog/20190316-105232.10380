@@ -1,0 +1,4 @@
+Log file created at: 2019/03/16 10:52:32
+Running on machine: LEONID-PC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0316 10:52:32.917846  6672 marketspi.cpp:15] MsgId:0 Msg:用户:18950098 登录成功! in OnUserLogin

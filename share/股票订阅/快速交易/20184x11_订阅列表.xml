@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>002750</StockCode>
+			<StockName>龙津药业</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002927</StockCode>
+			<StockName>泰永长征</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>300715</StockCode>
+			<StockName>凯伦股份</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock5>
+	</Stocks>
+</content>

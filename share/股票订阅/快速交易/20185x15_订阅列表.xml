@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>600408</StockCode>
+			<StockName>*ST安泰 </StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>600528</StockCode>
+			<StockName>中铁工业</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>600545</StockCode>
+			<StockName>卓郎智能</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>600839</StockCode>
+			<StockName>四川长虹</StockName>
+		</Stock4>
+	</Stocks>
+</content>

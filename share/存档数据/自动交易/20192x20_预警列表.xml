@@ -1,0 +1,25 @@
+{
+   "recordInfo" : [
+      {
+         "cause" : "以4.4(偏离现价4.39,0.22)买入1134手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:56:48:290",
+         "stock_code" : "002542",
+         "stock_name" : "中化岩土"
+      },
+      {
+         "cause" : "以6.73(偏离现价6.7,0.44)买入3000手",
+         "entrust_amount" : "",
+         "entrust_no" : "",
+         "entrust_price" : "",
+         "note" : "",
+         "s_alertTime" : "14:56:48:340",
+         "stock_code" : "300311",
+         "stock_name" : "任子行"
+      }
+   ]
+}
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000935</StockCode>
+			<StockName>四川双马</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002338</StockCode>
+			<StockName>奥普光电</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>002806</StockCode>
+			<StockName>华锋股份</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>002856</StockCode>
+			<StockName>美芝股份</StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>300348</StockCode>
+			<StockName>长亮科技</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>300598</StockCode>
+			<StockName>诚迈科技</StockName>
+		</Stock7>
+		<Stock8>
+			<StockCode>300634</StockCode>
+			<StockName>彩讯股份</StockName>
+		</Stock8>
+		<Stock9>
+			<StockCode>300718</StockCode>
+			<StockName>长盛轴承</StockName>
+		</Stock9>
+		<Stock10>
+			<StockCode>600303</StockCode>
+			<StockName>曙光股份</StockName>
+		</Stock10>
+		<Stock11>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock11>
+		<Stock12>
+			<StockCode>601518</StockCode>
+			<StockName>吉林高速</StockName>
+		</Stock12>
+	</Stocks>
+</content>

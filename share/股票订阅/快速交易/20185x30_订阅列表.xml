@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>002691</StockCode>
+			<StockName>冀凯股份</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>300077</StockCode>
+			<StockName>国民技术</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>300596</StockCode>
+			<StockName>利安隆</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>300703</StockCode>
+			<StockName>创源文化</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>600408</StockCode>
+			<StockName>*ST安泰 </StockName>
+		</Stock5>
+		<Stock6>
+			<StockCode>600550</StockCode>
+			<StockName>保变电气</StockName>
+		</Stock6>
+		<Stock7>
+			<StockCode>600980</StockCode>
+			<StockName>北矿科技</StockName>
+		</Stock7>
+	</Stocks>
+</content>

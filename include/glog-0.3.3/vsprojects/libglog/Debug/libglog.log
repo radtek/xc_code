@@ -1,0 +1,20 @@
+﻿  port.cc
+d:\湘财\xctrade_final\include\glog-0.3.3\src\windows\port.h(117): warning C4005: “va_copy”: 宏重定义
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(20): note: 参见“va_copy”的前一个定义
+  vlog_is_on.cc
+d:\湘财\xctrade_final\include\glog-0.3.3\src\windows\port.h(117): warning C4005: “va_copy”: 宏重定义
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(20): note: 参见“va_copy”的前一个定义
+  utilities.cc
+d:\湘财\xctrade_final\include\glog-0.3.3\src\windows\port.h(117): warning C4005: “va_copy”: 宏重定义
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(20): note: 参见“va_copy”的前一个定义
+  raw_logging.cc
+d:\湘财\xctrade_final\include\glog-0.3.3\src\windows\port.h(117): warning C4005: “va_copy”: 宏重定义
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(20): note: 参见“va_copy”的前一个定义
+  logging.cc
+d:\湘财\xctrade_final\include\glog-0.3.3\src\windows\port.h(117): warning C4005: “va_copy”: 宏重定义
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdarg.h(20): note: 参见“va_copy”的前一个定义
+  正在生成代码...
+logging.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\湘财\XcTrade_Final\include\glog-0.3.3\Debug\libglog.lib 和对象 D:\湘财\XcTrade_Final\include\glog-0.3.3\Debug\libglog.exp
+  libglog.vcxproj -> D:\湘财\XcTrade_Final\include\glog-0.3.3\Debug\libglog.dll
+  libglog.vcxproj -> D:\湘财\XcTrade_Final\include\glog-0.3.3\Debug\libglog.pdb (Full PDB)

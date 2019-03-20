@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000413</StockCode>
+			<StockName>东旭光电</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>000797</StockCode>
+			<StockName>中国武夷</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>000828</StockCode>
+			<StockName>东莞控股</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>600067</StockCode>
+			<StockName>冠城大通</StockName>
+		</Stock4>
+		<Stock5>
+			<StockCode>603777</StockCode>
+			<StockName>来伊份  </StockName>
+		</Stock5>
+	</Stocks>
+</content>

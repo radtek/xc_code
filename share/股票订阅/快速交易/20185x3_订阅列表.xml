@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>002807</StockCode>
+			<StockName>江阴银行</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>300519</StockCode>
+			<StockName>新光药业</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>600598</StockCode>
+			<StockName>北大荒  </StockName>
+		</Stock3>
+	</Stocks>
+</content>

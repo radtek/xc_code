@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{a61857d4-14d4-4920-b635-c9fe8eb55ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{710cebe7-94ab-469f-87ff-48672ba89b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{f47914b0-bdcd-4025-b0b3-f04be0640c56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FastTrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastTradeSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\JG\Login_Base.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\T2Spi_Fast\DealPush_Fast.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="FastTradeMainView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginFast.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginFast_Syn.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="FastTradeView_001.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="FundView_004.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderView_002.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertView_005.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertSetting_Fast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MarketSpi_Fast_SSE\MarketSpi_Fast_SSE.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MarketSpi_Fast_SZSE\MarketSpi_Fast_SZSE.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPoolView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="DealSummaryView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderDealDetailView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderEachView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderQueueView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\T2Spi_Fast\T2Spi_Fast.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewManager_fast.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FastTrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastTradeSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\JG\Login_Base.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\T2Spi_Fast\T2Spi_Fast.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="FastTradeMainView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Login_Fast.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="FastTradeView_001.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Fundview_004.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderView_002.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertView_005.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertSetting_Fast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MarketSpi_Fast_SSE\MarketSpi_Fast_SSE.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MarketSpi_Fast_SZSE\MarketSpi_Fast_SZSE.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewManager_fast.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPoolView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="DealSummaryView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderDealDetailView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderEachView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderQueueView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FastTrade.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\FastTrade.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\layout\default.layout" />
+    <None Include="..\tool\share.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FastTrade.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\menu\Trade.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menu\Trade_hover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Debug\dat\Layout_FastTrade_FontStandard_Default.xml" />
+  </ItemGroup>
+</Project>

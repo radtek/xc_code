@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>002832</StockCode>
+			<StockName>比音勒芬</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>002863</StockCode>
+			<StockName>今飞凯达</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>300565</StockCode>
+			<StockName>科信技术</StockName>
+		</Stock3>
+		<Stock4>
+			<StockCode>603777</StockCode>
+			<StockName>来伊份  </StockName>
+		</Stock4>
+	</Stocks>
+</content>

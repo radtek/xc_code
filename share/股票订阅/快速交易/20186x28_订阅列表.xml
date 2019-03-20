@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>000973</StockCode>
+			<StockName>佛塑科技</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>300020</StockCode>
+			<StockName>银江股份</StockName>
+		</Stock2>
+	</Stocks>
+</content>

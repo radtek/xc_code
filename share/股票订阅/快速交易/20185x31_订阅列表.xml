@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<content>
+	<Stocks>
+		<Stock1>
+			<StockCode>300729</StockCode>
+			<StockName>乐歌股份</StockName>
+		</Stock1>
+		<Stock2>
+			<StockCode>600550</StockCode>
+			<StockName>保变电气</StockName>
+		</Stock2>
+		<Stock3>
+			<StockCode>600980</StockCode>
+			<StockName>北矿科技</StockName>
+		</Stock3>
+	</Stocks>
+</content>

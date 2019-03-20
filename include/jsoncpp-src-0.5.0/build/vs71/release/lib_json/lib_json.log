@@ -1,0 +1,7 @@
+﻿cl : 命令行 warning D9035: “Zc:forScope-”选项已否决，并将在将来的版本中移除
+  json_reader.cpp
+  json_value.cpp
+  json_writer.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(E:\工作空间\客户端\姚树龙\JG_新框架\20181205\XcTrade_Final\include\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/release/lib_json\lib_json.lib) does not match the Library's OutputFile property value (E:\工作空间\客户端\姚树龙\JG_新框架\20181205\XcTrade_Final\include\jsoncpp-src-0.5.0\build\vs71\release\lib_json\json_vc71_libmt.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(lib_json) does not match the Library's OutputFile property value (json_vc71_libmt). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  lib_json.vcxproj -> E:\工作空间\客户端\姚树龙\JG_新框架\20181205\XcTrade_Final\include\jsoncpp-src-0.5.0\makefiles\vs71\../../build/vs71/release/lib_json\lib_json.lib

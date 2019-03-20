@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BF11FF6-8D60-4922-A017-9DDAFA85C335}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>UiCtrls</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>BOOST_ALL_DYN_LINK;NO_WARN_MBCS_MFC_DEPRECATION;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>.\include;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NO_WARN_MBCS_MFC_DEPRECATION;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>./include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\HLayoutMgr.cpp" />
+    <ClCompile Include="include\HotkeyEdit.cpp" />
+    <ClCompile Include="UiCtrls\amsEdit.cpp" />
+    <ClCompile Include="UiCtrls\BaseUIControl.cpp" />
+    <ClCompile Include="UiCtrls\CompareDlg.cpp" />
+    <ClCompile Include="UiCtrls\CompareEdit.cpp" />
+    <ClCompile Include="UiCtrls\CompareInplaceEdit.cpp" />
+    <ClCompile Include="UiCtrls\CompareListBox.cpp" />
+    <ClCompile Include="UiCtrls\CustomTabCtrl.cpp" />
+    <ClCompile Include="UiCtrls\DLLFrameWnd.cpp" />
+    <ClCompile Include="UiCtrls\DockLayoutWnd.cpp" />
+    <ClCompile Include="UiCtrls\DockTabPane.cpp" />
+    <ClCompile Include="UiCtrls\DockWindow.cpp" />
+    <ClCompile Include="UiCtrls\DotNetTabCtrl.cpp" />
+    <ClCompile Include="UiCtrls\DrawFun.cpp" />
+    <ClCompile Include="UiCtrls\GridCell.cpp" />
+    <ClCompile Include="UiCtrls\GridCellBase.cpp" />
+    <ClCompile Include="UiCtrls\GridCellButtonEdit.cpp" />
+    <ClCompile Include="UiCtrls\GridCellCheck.cpp" />
+    <ClCompile Include="UiCtrls\GridCellCombo.cpp" />
+    <ClCompile Include="UiCtrls\GridCellDoubleEdit.cpp" />
+    <ClCompile Include="UiCtrls\GridCellHotkeyEdit.cpp" />
+    <ClCompile Include="UiCtrls\GridCellNumberEdit.cpp" />
+    <ClCompile Include="UiCtrls\GridCellTime.cpp" />
+    <ClCompile Include="UiCtrls\GridCtrl.cpp" />
+    <ClCompile Include="UiCtrls\GridCtrlEx.cpp" />
+    <ClCompile Include="UiCtrls\GridDropTarget.cpp" />
+    <ClCompile Include="UiCtrls\InPlaceButtonEdit.cpp" />
+    <ClCompile Include="UiCtrls\InPlaceEdit.cpp" />
+    <ClCompile Include="UiCtrls\InPlaceFastkeyEdit.cpp" />
+    <ClCompile Include="UiCtrls\InPlaceHotkeyEdit.cpp" />
+    <ClCompile Include="UiCtrls\InPlaceIntEdit.cpp" />
+    <ClCompile Include="UiCtrls\InPlaceTime.cpp" />
+    <ClCompile Include="UiCtrls\InputTime.cpp" />
+    <ClCompile Include="UiCtrls\MessageEdit.cpp" />
+    <ClCompile Include="UiCtrls\PageContainer.cpp" />
+    <ClCompile Include="UiCtrls\PasswordEdit.cpp" />
+    <ClCompile Include="UiCtrls\PlaceList.cpp" />
+    <ClCompile Include="UiCtrls\PriceButton.cpp" />
+    <ClCompile Include="UiCtrls\QdComboBox.cpp" />
+    <ClCompile Include="UiCtrls\SelectButtonInplaceEdit.cpp" />
+    <ClCompile Include="UiCtrls\SelectButtonListBox.cpp" />
+    <ClCompile Include="UiCtrls\SelectButtonPopupWindow.cpp" />
+    <ClCompile Include="UiCtrls\SimpleArrowButton.cpp" />
+    <ClCompile Include="UiCtrls\SimpleArrowButtonEx.cpp" />
+    <ClCompile Include="UiCtrls\SimpleButton.cpp" />
+    <ClCompile Include="UiCtrls\SimpleButtonEdit.cpp" />
+    <ClCompile Include="UiCtrls\SimpleCalendar.cpp" />
+    <ClCompile Include="UiCtrls\SimpleCheckbox.cpp" />
+    <ClCompile Include="UiCtrls\SimpleComboBox.cpp" />
+    <ClCompile Include="UiCtrls\SimpleDateTimePicker.cpp" />
+    <ClCompile Include="UiCtrls\SimpleDockPane.cpp" />
+    <ClCompile Include="UiCtrls\SimpleEdit.cpp" />
+    <ClCompile Include="UiCtrls\SimpleGram.cpp" />
+    <ClCompile Include="UiCtrls\SimpleGraph.cpp" />
+    <ClCompile Include="UiCtrls\SimpleGrid.cpp" />
+    <ClCompile Include="UiCtrls\SimpleImageButton.cpp" />
+    <ClCompile Include="UiCtrls\SimpleImageControl.cpp" />
+    <ClCompile Include="UiCtrls\SimpleMultilineEdit.cpp" />
+    <ClCompile Include="UiCtrls\SimplePopupMenu.cpp" />
+    <ClCompile Include="UiCtrls\SimplePopupMenuEx.cpp" />
+    <ClCompile Include="UiCtrls\SimpleRadioButton.cpp" />
+    <ClCompile Include="UiCtrls\SimpleScrollbar.cpp" />
+    <ClCompile Include="UiCtrls\SimpleSelectButton.cpp" />
+    <ClCompile Include="UiCtrls\SimpleSeparator.cpp" />
+    <ClCompile Include="UiCtrls\SimpleStatic.cpp" />
+    <ClCompile Include="UiCtrls\SimpleTime.cpp" />
+    <ClCompile Include="UiCtrls\SimpleTitleBar.cpp" />
+    <ClCompile Include="UiCtrls\SimpleTree.cpp" />
+    <ClCompile Include="UiCtrls\SpecialImageButton.cpp" />
+    <ClCompile Include="UiCtrls\stb_image.cpp" />
+    <ClCompile Include="UiCtrls\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UiCtrls\TabDockManager.cpp" />
+    <ClCompile Include="UiCtrls\TitleTip.cpp" />
+    <ClCompile Include="UiCtrls\Tracker.cpp" />
+    <ClCompile Include="UiCtrls\TTComboBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\amsEdit.h" />
+    <ClInclude Include="include\BaseUIControl.h" />
+    <ClInclude Include="include\CellRange.h" />
+    <ClInclude Include="include\CompareDlg.h" />
+    <ClInclude Include="include\CompareEdit.h" />
+    <ClInclude Include="include\CompareInplaceEdit.h" />
+    <ClInclude Include="include\CompareListBox.h" />
+    <ClInclude Include="include\CustomTabCtrl.h" />
+    <ClInclude Include="include\DLLFrameWnd.h" />
+    <ClInclude Include="include\DockLayoutWnd.h" />
+    <ClInclude Include="include\DockManager.h" />
+    <ClInclude Include="include\docktabpane.h" />
+    <ClInclude Include="include\DockWindow.h" />
+    <ClInclude Include="include\DotNetTabCtrl.h" />
+    <ClInclude Include="include\DrawFun.h" />
+    <ClInclude Include="include\GridCell.h" />
+    <ClInclude Include="include\GridCellBase.h" />
+    <ClInclude Include="include\GridCellButtonEdit.h" />
+    <ClInclude Include="include\GridCellCheck.h" />
+    <ClInclude Include="include\GridCellCombo.h" />
+    <ClInclude Include="include\GridCellDoubleEdit.h" />
+    <ClInclude Include="include\GridCellHotkeyEdit.h" />
+    <ClInclude Include="include\GridCellNumberEdit.h" />
+    <ClInclude Include="include\GridCellTime.h" />
+    <ClInclude Include="include\GridCtrl.h" />
+    <ClInclude Include="include\GridCtrlEx.h" />
+    <ClInclude Include="include\GridDropTarget.h" />
+    <ClInclude Include="include\HLayoutMgr.h" />
+    <ClInclude Include="include\HotkeyEdit.h" />
+    <ClInclude Include="include\InPlaceButtonEdit.h" />
+    <ClInclude Include="include\InPlaceEdit.h" />
+    <ClInclude Include="include\InPlaceFastkeyEdit.h" />
+    <ClInclude Include="include\InPlaceHotkeyEdit.h" />
+    <ClInclude Include="include\InPlaceIntEdit.h" />
+    <ClInclude Include="include\InPlaceTime.h" />
+    <ClInclude Include="include\InputTime.h" />
+    <ClInclude Include="include\KLineGraph.h" />
+    <ClInclude Include="include\MemDC.h" />
+    <ClInclude Include="include\MessageEdit.h" />
+    <ClInclude Include="include\pagecontainer.h" />
+    <ClInclude Include="include\PasswordEdit.h" />
+    <ClInclude Include="include\PlaceList.h" />
+    <ClInclude Include="include\PriceButton.h" />
+    <ClInclude Include="include\PubDefine.h" />
+    <ClInclude Include="include\QdComboBox.h" />
+    <ClInclude Include="include\QdControlMsgID.h" />
+    <ClInclude Include="include\QdUiLib.h" />
+    <ClInclude Include="include\SelectButtonInplaceEdit.h" />
+    <ClInclude Include="include\SelectButtonListBox.h" />
+    <ClInclude Include="include\SelectButtonPopupWindow.h" />
+    <ClInclude Include="include\SimpleArrowButton.h" />
+    <ClInclude Include="include\SimpleArrowButtonEx.h" />
+    <ClInclude Include="include\SimpleButton.h" />
+    <ClInclude Include="include\SimpleButtonEdit.h" />
+    <ClInclude Include="include\SimpleCalendar.h" />
+    <ClInclude Include="include\SimpleCheckbox.h" />
+    <ClInclude Include="include\SimpleComboBox.h" />
+    <ClInclude Include="include\SimpleDateTimePicker.h" />
+    <ClInclude Include="include\SimpleDockPane.h" />
+    <ClInclude Include="include\SimpleEdit.h" />
+    <ClInclude Include="include\SimpleGram.h" />
+    <ClInclude Include="include\SimpleGraph.h" />
+    <ClInclude Include="include\SimpleGrid.h" />
+    <ClInclude Include="include\SimpleImageButton.h" />
+    <ClInclude Include="include\SimpleImageControl.h" />
+    <ClInclude Include="include\SimpleMultilineEdit.h" />
+    <ClInclude Include="include\SimplePopupMenu.h" />
+    <ClInclude Include="include\SimplePopupMenuEx.h" />
+    <ClInclude Include="include\SimpleRadioButton.h" />
+    <ClInclude Include="include\SimpleScrollbar.h" />
+    <ClInclude Include="include\SimpleSelectButton.h" />
+    <ClInclude Include="include\SimpleSeparator.h" />
+    <ClInclude Include="include\SimpleSplitter.h" />
+    <ClInclude Include="include\SimpleStatic.h" />
+    <ClInclude Include="include\SimpleTabCtrl.h" />
+    <ClInclude Include="include\SimpleTime.h" />
+    <ClInclude Include="include\SimpleTitleBar.h" />
+    <ClInclude Include="include\SimpleTree.h" />
+    <ClInclude Include="include\SpecialImageButton.h" />
+    <ClInclude Include="include\stb_image.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\TabDockManager.h" />
+    <ClInclude Include="include\TitleTip.h" />
+    <ClInclude Include="include\Tracker.h" />
+    <ClInclude Include="include\TTComboBox.h" />
+    <ClInclude Include="include\UiDefine.h" />
+    <ClInclude Include="resource1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UiCtrls.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

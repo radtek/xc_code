@@ -1,0 +1,4 @@
+Log file created at: 2019/03/01 20:22:58
+Running on machine: DESKTOP-QI3NVMG
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0301 20:22:58.244736 25164 MFCUpdateTest.cpp:465] 客户账户无权限

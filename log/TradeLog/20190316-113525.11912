@@ -1,0 +1,4 @@
+Log file created at: 2019/03/16 11:35:25
+Running on machine: LEONID-PC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0316 11:35:25.290978  8488 login_base.cpp:69] 初始化链接对象失败
